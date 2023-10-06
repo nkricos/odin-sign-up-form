@@ -1,6 +1,6 @@
 # odin-sign-up-form
 
-2023.10.06 - Repository created
+2023.10.06 - Repository created, html, css and js files created and linked, assets gathered
     To do:  Create a sign-up form to spec, demonstrating intermediate HTML and CSS
 
 Main image - Photo by Halie West on Unsplash - images/halie-west-25xggax4bSA-unsplash.jpg
