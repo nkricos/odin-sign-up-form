@@ -1,3 +1,60 @@
-.checkLink {
-    color: blue;
+@font-face {
+    font-family: 'NorseBold';
+    src: url('fonts/Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.norseFont {
+    font-family: NorseBold;
+    color: white;
+    font-size: 10vh;
+}
+
+.page {
+    display: flex;
+}
+
+.leftPage {
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    height: 100vh;
+    width: 33.3vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.odinBanner {
+    display: flex;
+    background: rgba(0, 0, 0, 0.15);
+    position: relative;
+    top: 25vh;
+    height: 14vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.odinLogo {
+    background: rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 100vh;
+    height: 14vh;
+    height: 12.5vh;
+}
+
+.imageCredit {
+    text-align: center;
+}
+
+.imageCredit, .imageCredit>a:link, .imageCredit>a:visited  {
+    color: white;
+}
+
+.imageCredit>a:hover, .imageCredit>a:active {
+    color: yellow;
+}
+
+.leftPage, .rightPage {
+    display: flex;
+    flex-direction: column;
 }
