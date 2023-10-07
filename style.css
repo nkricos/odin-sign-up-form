@@ -15,16 +15,17 @@
     display: flex;
 }
 
-.leftPage {
+#leftPage {
     background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
     height: 100vh;
     width: 33.3vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
+    flex: 0 0 auto;
 }
 
-.odinBanner {
+#odinBanner {
     display: flex;
     background: rgba(0, 0, 0, 0.15);
     position: relative;
@@ -53,7 +54,61 @@
     color: yellow;
 }
 
-.leftPage, .rightPage {
+#leftPage, #rightPage {
     display: flex;
     flex-direction: column;
+}
+
+#rightPage {
+    justify-content: space-between;
+}
+
+#topThird, #bottomThird {
+    background-color: rgb(242, 244, 245);
+}
+
+#topThird {
+    font-weight: 700;
+}
+
+#midThird {
+    padding: 24px;
+}
+
+#mainForm {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-right: 240px;
+}
+
+#mainForm>div {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus {
+    border-color: #596D48;
+    outline: #596D48;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#signUpButton {
+   color: white;
+   background-color: #596D48;
+   border-radius: 6px;
+   height: 50px;
+   width: 200px;
+   font-weight: 700;
+   font-size: large;
+   margin-left: 50px;
 }
