@@ -21,7 +21,7 @@
     width: 33.3vw;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 .odinBanner {
@@ -35,14 +35,13 @@
 }
 
 .odinLogo {
-    background: rgba(0, 0, 0, 0.15);
-    position: relative;
-    bottom: 100vh;
-    height: 14vh;
     height: 12.5vh;
 }
 
 .imageCredit {
+    background: rgba(0, 0, 0, 0.15);
+    position: relative;
+    top: 80vh;
     text-align: center;
 }
 
