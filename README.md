@@ -1,6 +1,8 @@
 # odin-sign-up-form
 
 20230.10.9 - Fix form layout
+    Add responsive display
+    Remove redundant code
 
 2023.10.07 - Right side initial layout and style
     Form and submit buttons added and basic stylings added
