@@ -11,6 +11,10 @@
     font-size: 10vh;
 }
 
+p {
+    font-weight: 700;
+}
+
 .page {
     display: flex;
 }
@@ -21,7 +25,7 @@
     width: 33.3vw;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     flex: 0 0 auto;
 }
 
@@ -29,7 +33,7 @@
     display: flex;
     background: rgba(0, 0, 0, 0.15);
     position: relative;
-    top: 25vh;
+    top: 22vh;
     height: 14vh;
     justify-content: center;
     align-items: center;
@@ -60,7 +64,9 @@
 }
 
 #rightPage {
+    height: 100vh;
     justify-content: space-between;
+    width: 100%;
 }
 
 #topThird, #bottomThird {
@@ -68,29 +74,63 @@
 }
 
 #topThird {
-    font-weight: 700;
+    height: 36vh;
+    
+}
+
+#topThird>p, #bottomThird>p {
+    width: 80%;
+    max-width: 550px;
+    margin-left: 24px;
+}
+
+#topThird>p:nth-child(1) {
+    margin-top: 100px;
+    margin-bottom: 0;
+    border: 1px solid blue;
+}
+
+#topThird>p:nth-child(2) {
+    margin-top: 0;
 }
 
 #midThird {
-    padding: 24px;
+    height: 38vh;
+    box-shadow: 0 8px 6px -6px black;
 }
 
-#mainForm {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    padding-right: 240px;
+#midThird>div>p {
+    margin: 12px;
 }
 
-#mainForm>div {
-    display: flex;
-    flex-direction: column;
+#bottomThird {
+    height: 26vh;
+}
+
+
+
+
+#formAnnounce {
     padding: 12px;
 }
 
+.formRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formRow>div {
+    padding: 12px 24px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+}
+
 input {
-    width: 300px;
-    height: 30px;
+    width: 200px;
+    height: 20px;
     padding: 0;
     margin: 0;
     border: 1px solid #E5E7EB;
@@ -99,7 +139,10 @@ input {
 input:focus {
     border-color: #596D48;
     outline: #596D48;
-    box-shadow: 5px 10px 8px #888888;
+}
+
+label {
+    font-size: small;
 }
 
 #signUpButton {
@@ -110,5 +153,32 @@ input:focus {
    width: 200px;
    font-weight: 700;
    font-size: large;
-   margin-left: 50px;
+   margin: 24px;
+}
+
+@media screen and (max-width: 797px) {
+    .page {
+        flex-direction: column;
+    }
+
+    #leftPage {
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .imageCredit {
+        display: none;
+    }
+
+    #odinBanner {
+        position: static;
+    }
+
+    #topThird, #midThird, #bottomThird {
+        height: auto;
+    }
+
+    #topThird>p:nth-child(1) {
+        margin-top: 12px;
+    }
 }
