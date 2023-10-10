@@ -87,7 +87,6 @@ p {
 #topThird>p:nth-child(1) {
     margin-top: 100px;
     margin-bottom: 0;
-    border: 1px solid blue;
 }
 
 #topThird>p:nth-child(2) {
@@ -136,6 +135,10 @@ input {
 input:focus {
     border-color: #596D48;
     outline: #596D48;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border: 1px solid red;
 }
 
 label {
