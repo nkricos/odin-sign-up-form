@@ -181,4 +181,12 @@ label {
     #topThird>p:nth-child(1) {
         margin-top: 12px;
     }
+
+    #formAnnounce {
+        text-align: center;
+    }
+
+    .formRow {
+        justify-content: center;
+    }
 }
