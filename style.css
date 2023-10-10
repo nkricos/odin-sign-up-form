@@ -96,6 +96,7 @@ p {
 #midThird {
     height: 38vh;
     box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 6px;
 }
 
 #midThird>div>p {
@@ -130,11 +131,13 @@ input {
     padding: 0;
     margin: 0;
     border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
 input:focus {
     border-color: #596D48;
     outline: #596D48;
+    box-shadow: 3px 3px 6px #596D48;
 }
 
 input:invalid:not(:placeholder-shown) {
@@ -154,6 +157,19 @@ label {
    font-weight: 700;
    font-size: large;
    margin: 24px;
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #596D48;
+}
+
+a:hover, a:active {
+    color: green;
 }
 
 @media screen and (max-width: 797px) {
@@ -188,5 +204,9 @@ label {
 
     .formRow {
         justify-content: center;
+    }
+
+    #midThird {
+        margin-bottom: 0;
     }
 }

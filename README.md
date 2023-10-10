@@ -1,6 +1,9 @@
 # odin-sign-up-form
 
-20230.10.9 - Fix form layout
+2023.10.10 - Center form on mobile view
+    Add validation to form
+
+2023.10.9 - Fix form layout
     Add responsive display
     Remove redundant code
 
