@@ -14,11 +14,12 @@
 p {
     font-weight: 700;
     font-size: large;
-    font-family: sans-serif;
+    
 }
 
 .page {
     display: flex;
+    font-family: sans-serif;
 }
 
 #leftPage {
