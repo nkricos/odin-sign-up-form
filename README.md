@@ -2,6 +2,8 @@
 
 2023.10.10 - Center form on mobile view
     Add validation to form
+    Fix positioning image credit
+    Remove serif from paragraph text
 
 2023.10.9 - Fix form layout
     Add responsive display

@@ -13,6 +13,8 @@
 
 p {
     font-weight: 700;
+    font-size: large;
+    font-family: sans-serif;
 }
 
 .page {
@@ -27,6 +29,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     flex: 0 0 auto;
+    position: relative;
 }
 
 #odinBanner {
@@ -45,8 +48,9 @@ p {
 
 .imageCredit {
     background: rgba(0, 0, 0, 0.15);
-    position: relative;
-    top: 80vh;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
     text-align: center;
 }
 
