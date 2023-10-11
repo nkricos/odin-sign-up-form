@@ -213,4 +213,21 @@ a:hover, a:active {
     #midThird {
         margin-bottom: 0;
     }
+
+    .formRow>div {
+        padding: 12px 12px;
+    }
+
+    .formRow {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #bottomThird {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }

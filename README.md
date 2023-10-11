@@ -1,5 +1,7 @@
 # odin-sign-up-form
 
+2023.10.11 - Center and adjust padding on mobile view
+
 2023.10.10 - Center form on mobile view
     Add validation to form
     Fix positioning image credit
